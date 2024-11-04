@@ -8,6 +8,7 @@ public class RestaurantInformation {
 	
 	public RestaurantInformation()
 	{
+		// initialize variables
 		restaurantName = "Huda";
 		businessAddress = "32 S 18th Street";
 		city = "Philadelphia";
@@ -15,7 +16,7 @@ public class RestaurantInformation {
 		zipCode = 19103;
 	}
 	
-	
+	// print all variables
 	public void PrintItems()
 	{
 		System.out.println(restaurantName);
@@ -23,6 +24,7 @@ public class RestaurantInformation {
 		System.out.println(city + ", " + state + " " + zipCode);
 	}
 	
+	// create main method to run program
 	public static void main(String[] args) {
 		RestaurantInformation restaurantInformation = new RestaurantInformation();
 		restaurantInformation.PrintItems();
